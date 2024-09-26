@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MuhammadMuaaz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+       
+
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <div>
+                    <h1 class="navbar-brand">Muhammad Muaaz</h1>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#tech-stack">About</a></li>
+                    <li><a href="#my-works">Portfolio</a></li>
+                    <li><a href="#my-experience">Experience</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="home-content vanta-bg" id="home-page">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+            
+            <script src="path/to/three.min.js"></script>
+            <script src="path/to/vanta.net.min.js"></script>
+            
+            <div id="vanta-bg" style="width: 100%; height: 100vh;"></div>
+            <script >
+                
+             document.addEventListener('DOMContentLoaded', function() {
+    const vantaElements = document.querySelectorAll('.vanta-bg');
+
+    vantaElements.forEach((element) => {
+        VANTA.NET({
+            el: element,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xf20000,
+            backgroundColor: 0x0,
+            maxDistance: 21.00
+        });
+    });
+});
+             </script>
+              
+            <div class="name">
+                <h1>Hi, I'm Muhammad Muaaz</h1>
+                <p>An aspiring Software Engineer</p>
+            </div>
+            <div class="angle-down-icon">
+                <a href="#about"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+   <!--TECH STACK-->
+   
+   <section id="tech-stack" class="tech-stack vanta-bg">
+    <h1> My Tech Stack</h1>
+    <p>Here are some of the technologies I work with to build projects.</p>
+
+    <!-- Frontend Section -->
+    <div class="tech-category">
+        <h2 class = 'stack-title'>Frontend Development</h2>
+        <div class="tech-grid">
+            <div class="tech-item" data-tooltip="HTML5">
+                <img src="icons/html.png" alt="HTML5">
+            </div>
+            <div class="tech-item" data-tooltip="CSS3">
+                <img src="icons/css.png" alt="CSS3">
+            </div>
+            <div class="tech-item" data-tooltip="JavaScript">
+                <img src="icons/javacript.png" alt="JavaScript">
+            </div>
+            <div class="tech-item" data-tooltip="React.js">
+                <img src="icons/react.png" alt="React.js">
+            </div>
+            
+            <div class="tech-item" data-tooltip="Sass">
+                <img src="icons/saas.png" alt="Sass">
+            </div>
+            <div class="tech-item" data-tooltip="Bootstrap">
+                <img src="icons/bootstrap.png" alt="Bootstrap">
+            </div>
+            <div class="tech-item" data-tooltip="MaterialUI">
+                <img src="icons/material-ui.svg" alt="MaterialUI">
+            </div>
+        </div>
+    </div>
+
+    <!-- Backend Section -->
+    <div class="tech-category">
+        <h2 class = 'stack-title'>Backend Development</h2>
+        <div class="tech-grid">
+            <div class="tech-item" data-tooltip="Node.js">
+                <img src="icons/nodejs.svg" alt="Node.js">
+            </div>
+            <div class="tech-item" data-tooltip="Express.js">
+                <img src="icons/express.svg" alt="Express.js">
+            </div>
+            <div class="tech-item" data-tooltip="Python">
+                <img src="icons/python.png" alt="Python">
+            </div>
+            <div class="tech-item" data-tooltip="C++">
+                <img src="icons/C++.png" alt="C++">
+            </div>
+            <div class="tech-item" data-tooltip="GraphQL">
+                <img src="icons/graphQL.svg" alt="GraphQL">
+            </div>
+            <div class="tech-item" data-tooltip="REST API">
+                <img src="icons/api.png" alt="REST API">
+            </div>
+        </div>
+    </div>
+
+    <!-- Databases Section -->
+    <div class="tech-category">
+        <h2 class = 'stack-title'>Databases</h2>
+        <div class="tech-grid">
+            <div class="tech-item" data-tooltip="MySQL">
+                <img src="icons/mysql.png" alt="MySQL">
+            </div>
+            <div class="tech-item" data-tooltip="PostgreSQL">
+                <img src="icons/postgresql.svg" alt="PostgreSQL">
+            </div>
+            <div class="tech-item" data-tooltip="MongoDB">
+                <img src="icons/mongodb.svg" alt="MongoDB">
+            </div>
+            <div class="tech-item" data-tooltip="Redis">
+                <img src="icons/redis.svg" alt="Redis">
+            </div>
+            <div class="tech-item" data-tooltip="Firebase">
+                <img src="icons/firebase.svg" alt="Firebase">
+            </div>
+        </div>
+    </div>
+
+    <!-- DevOps Section -->
+    <div class="tech-category">
+        <h2 class = 'stack-title' >DevOps & Infrastructure</h2>
+        <div class="tech-grid">
+            <div class="tech-item" data-tooltip="Docker">
+                <img src="icons/docker.svg" alt="Docker">
+            </div>
+            <div class="tech-item" data-tooltip="Kubernetes">
+                <img src="icons/kubernetes.svg" alt="Kubernetes">
+            </div>
+            <div class="tech-item" data-tooltip="AWS">
+                <img src="icons/aws.svg" alt="AWS">
+            </div>
+            <div class="tech-item" data-tooltip="GitHub">
+                <img src="icons/github.svg" alt="GitHub">
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Tools Section -->s
+    <div class="tech-category">
+        <h2 class = 'stack-title'>Tools & Other Technologies</h2>
+        <div class="tech-grid">
+            <div class="tech-item" data-tooltip="Git">
+                <img src="icons/git.svg" alt="Git">
+            </div>
+            <div class="tech-item" data-tooltip="Webpack">
+                <img src="icons/webpack.svg" alt="Webpack">
+            </div>
+            <div class="tech-item" data-tooltip="Babel">
+                <img src="icons/babel.svg" alt="Babel">
+            </div>
+            <div class="tech-item" data-tooltip="Jupyter">
+                <img src="icons/jupyter.svg" alt="Jupyter">
+            </div>
+            <div class="tech-item" data-tooltip="Anaconda">
+                <img src="icons/anaconda.svg" alt="Anaconda">
+            </div>
+            <div class="tech-item" data-tooltip="VS Code">
+                <img src="icons/vscode.svg" alt="VS Code">
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+    <!-- PROJECT SECTION-->
+
+    <section id="my-works" >
+        <div class="portfolio  vanta-bg">
+            <div class="proj-heading">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="portfolio-content container">
+      
+                       <!-- CAROUSEL START-->
+
+                    <div class="carousel-container vanta-bg">
+                        <div class="carousel">
+                            <div class="carousel-card">
+                                <img src="images/communityALI.png" alt="Project 1 Image">
+                                <div class="carousel-card-content">
+                                    <h3>CommunityALI</h3>
+                                    <p> 
+                                      Collaborated with a team of developers to make a project
+                                      <span id="dots1">...</span>
+                                      <span id="more1" style="display: none;">
+                                        that filled a very big gap in MJC. Students had no place to explore the opportunities they had with MJC and any internships they could have gotten. That was the inspiration behind this project, which grew to a user base of over 500.
+                                      </span>
+                                    </p>
+                                    <button onclick="myFunction('dots1', 'more1', 'myBtn1')" id="myBtn1">Read more</button>
+                                </div>
+                                <button class="proj-btn"><a href="https://github.com/Community-ALI/CommunityALI-Website" target="blank">View source <i
+                                    class="fas fa-external-link-alt"></i></a></button>
+                              <button  class="proj-btn"><a href="https://www.communityali.org/" target="blank">Try it Live <i
+                                     class="fas fa-external-link-alt"></i></a></button>
+                            </div>
+                            <div class="carousel-card">
+                                <img src= 'images/drumkit.png' alt="Project 2 Image">
+                                <div class="carousel-card-content">
+                                    <h3>Drumkit</h3>
+                                <p> 
+                                This was a project I made in order to master
+                            <span id="dots2">...</span>
+                            <span id="more2" style="display: none;">
+                          my javacript skills such as jquery and DOM manipulation, I have put it on here as a legacy project as it was one of my first ever projects that got me all excited to build more.
+                             </span>
+                            </p>
+                            
+                            <button onclick="myFunction('dots2', 'more2', 'myBtn2')" id="myBtn2">Read more</button>
+                                </div>
+                                <button class="proj-btn"><a href="https://github.com/MuhammadMuaaz03/Drumkit" target="blank">View source <i
+                                    class="fas fa-external-link-alt"></i></a>
+                                 </button>
+                             <button class="proj-btn"><a href="https://muhammadmuaaz03.github.io/Drumkit/" target="blank">Try it Live <i
+                                      class="fas fa-external-link-alt"></i></a>
+                             </button>
+                            </div>
+                            <div class="carousel-card">
+                                <img src="images/chatbot.png" alt="Project 3 Image">
+                                <div class="carousel-card-content">
+                                    <h3>ChatBot AI</h3>
+                                    <p> 
+                                      This was a project I made that used OPEN AI,
+                                      <span id="dots3">...</span>
+                                      <span id="more3" style="display: none;">
+                                         gemeniAPI, AWS services such as EC2 and Route53 and I used MaterialUI for my frontend. This project was 
+                                         made with the idea to showcase this to local businesses so that they would also incorporate this into 
+                                         their website and it worked, I incorporated this similar kind of chatbot into 2 other small businesses locally 
+                                         which they say incrased their online order rates by upto 50%!
+                                      </span>
+                                    </p>
+                                    <button onclick="myFunction('dots3', 'more3', 'myBtn3')" id="myBtn3">Read more</button>
+                                </div>
+                                <button class="proj-btn"><a href="https://chatbot.customer-support.lol/" target="blank">View Live <i
+                                    class="fas fa-external-link-alt"></i></a></button>
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev-btn" id="prev-btn">&#10094;</button>
+                        <button class="carousel-btn next-btn" id="next-btn">&#10095;</button>
+                        <div class="carousel-indicators" id="carousel-indicators"></div>
+                    </div>
+                
+                         <!-- CAROUSEL END-->
+
+        
+
+               
+                <div class="more-work"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id = "my-experience" >
+        <div class="my-exp vanta-bg">
+            <h1 class="exp-heading">My Education and Experience</h1>
+            <br>
+            <br>
+            <br>
+            <ul>
+        <li style="--accent-color:#41516C">
+        <div class="date">2021 - 2023</div>
+        <div class="title">Modesto Junior College</div>
+        <div class="descr"> <em> AST ComputerScience </em> <br>
+        Relevant coursework: Assemly Language Programming, DataStructures And Algorithms,  Intermediate C++ Programming
+        </div>
+         </li>
+        <li style="--accent-color:#FBCA3E">
+        <div class="date">2022</div>
+        <div class="title"> Solve CC</div>
+        <div class="descr">
+            
+            - Worked under a senior developer to manitain and optimize websites for non-profit organizations. <br>
+            <br>
+
+            - Unit testing and debugging features before launching them into production.<br>
+            <br>
+            - Optimizations in SEO and User Experience decreasing user bounce rate. <br>
+            <br>
+            </li>
+            <li style="--accent-color:#E24A68">
+          <div class="date">2023-2025</div>
+         <div class="title"> UC Merced</div>
+         <div class="descr"><i>Computer Science and Engineering</i> <br>
+            <br>
+
+        Relevant coursework: <br>
+        - Algorithm Design and Analysis<br>
+        - Discrete Mathematics <br>
+        - Computer Architecture
+    </div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">2024</div>
+        <div class="title"> Headstarter AI Fellowship</div>
+        <div class="descr"> - A 7 week Fellowship in which I led a team of developers through hackathons, projects, resume prep workshops and much more. <br>
+            <br>
+            - We made 5 AI projects together learning skills ranging from OpenaAI, AmazonBEDROCK, Llama3, MaterialUI, NextJI, Computer Vision, Verecel, DataPreprocessing... ETC. <br>
+            
+            <br>
+            - In this Fellowship I also got the oppurtunity to talk to variouse industry professionls ranging from VCs to ExMAANG Employees who started their own companies and were willing to share their stories and answer questions <br>
+        </div>
+    </li>
+</ul>
+        </div>
+    </section>
+
+   
+   
+    <section class="vanta-bg">
+       <div class="contact" id="contact-me">
+            <div class="container">
+                <div class="contact-content">
+                    <h2>Contact Me</h2>
+                    <p class="mail">
+                        Get in touch with me <i class="fas fa-arrow-right"></i> muhammadmuaaz111@gmail.com
+                    </p>
+                    <p class="links">Or find me on:</p>
+                    <a href="https://www.linkedin.com/in/muhammad-m-22473313a/" target="blank"><i class="fab fa-linkedin">
+                            LinkedIn</i></a>
+                    <a href="https://github.com/MuhammadMuaaz03" target="blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!--JAVASCRIPT-->
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
